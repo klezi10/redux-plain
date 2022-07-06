@@ -41,3 +41,7 @@ store.subscribe(counterSubscriber);
 //typically type should be a string
 store.dispatch({ type: "increment" });
 store.dispatch({ type: "decrement" });
+
+/* redux is not react specific.
+to install redux - npm install redux
+to install for react - npm install redux react-redux */
